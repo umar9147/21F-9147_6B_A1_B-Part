@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .MainHeading {
+    background-color: lightslategray;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 10px;
+    height: 265px;
+    
+    
+  }
+  .end{
+    background-color: lightslategray;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 10px;
+    height: 100px;
+  }
+  #h2AboutMe{
+    margin-left: 20px;
+  }
+  .name{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    
+  }
+  .Info{
+    padding-top: 20px;
+  }
+  .Main{
+    display:flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  .Info img{
+    
+    width: 120px;
+    height: 150px; 
+    object-fit: cover;
+    border: 5px solid lightgray;
+    border-radius: 10%; 
+  }
+  
+  #Links{
+    display: flex;
+    gap:10px;
+    
+  }
+  
+  body{
+    
+    background-color:  whitesmoke;
+  }
+  
+  .About_Me{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    padding-left: 20px;
+    margin: 15px;
+    padding: 10px;
+  }
+  .About_Me {
+    transition: all 0.4s ease; 
+  }
+  .button {
+    display: inline-block;
+     border-radius: 4px;
+     background-color: blue;
+     border: solid 1px;
+     border-color: blue;
+     color: #FFFFFF;
+     font-size: 12px;
+     padding: 20px;
+     width: 120px;
+     transition: all 0.5s;
+     cursor: pointer;
+     padding-bottom: 100;
+   }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    padding-right: 8px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .About_Me:hover {
+    transform: scale(1.025);
+  }
+  
+  .About_Me h1 {
+    font-size: 24px;
+  }
+  
+  .About_Me p {
+    font-size: 16px;
+  }
+  
+  
+  
+  
+  .links{
+    color: lightcyan;
+    text-decoration: none;
+  }
+  #Links{
+    padding-right: 40px;
+  }
+  .div2 {
+    background-color: green;
+    margin-top: 10px;
+  }
+  
